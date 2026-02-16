@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2>TEXT TITLE</h2>
+        <p id="demo"></p>
+        <script>
+            var veggies = ["Corn", "Cauliflower", "Carrot",
+            "Tomato", "Cabbage", "Beetroot"];
+            var text = "";
+            var i;
+            for (i = 0; i < veggies.length; i++) {
+            text += veggies[i] + "<br>";
+            }
+            document.getElementById("demo").innerHTML = text;
+        </script>
+    </body>
+</html>
